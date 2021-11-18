@@ -38,8 +38,10 @@ function dirReduc(arr){
             result.push("WEST");
             }
     }
-    document.querySelector("#result").textContent=`The result is:${result}`;
+    document.querySelector("#result").textContent=`The result is:${result}
+    for ${arr}`;
     return result;
+    
   }
-  dirReduc(["EAST","EAST","NORTH","EAST","WEST","WEST","WEST","SOUTH","SOUTH","WEST","SOUTH","SOUTH","NORTH","NORTH","EAST","EAST","NORTH","EAST"]);
+  dirReduc(["EAST","EAST","NORTH","WEST","WEST","SOUTH","SOUTH","NORTH","NORTH","EAST"]);
 
